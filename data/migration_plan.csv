@@ -1,26 +1,26 @@
 bot,old_command,new_command,alias_present,docs_updated,help_updated,date_completed,by,status
-Reminder,!ping,!ping,FALSE,FALSE,FALSE,,,In progress
-Reminder,!health,!health,FALSE,FALSE,FALSE,,,In progress
+Reminder,!ping,!ping,FALSE,FALSE,FALSE,,,Not started
+Reminder,!health,!health,FALSE,FALSE,FALSE,,,Not started
 Reminder,(missing),!digest,FALSE,FALSE,FALSE,,,Not started
-Reminder,!reload,!reload,FALSE,FALSE,FALSE,,,In progress
-Reminder,!checksheet,!checksheet,FALSE,FALSE,FALSE,,,In progress
-Reminder,!env,!env,FALSE,FALSE,FALSE,,,In progress
-Reminder,!config,!config,FALSE,FALSE,FALSE,,,In progress
-Reminder,!reboot,!reboot,FALSE,FALSE,FALSE,,,In progress
-WelcomeCrew,!ping,!ping,FALSE,FALSE,FALSE,,,In progress
-WelcomeCrew,!health,!health,FALSE,FALSE,FALSE,,,In progress
+Reminder,!reload,!reload,FALSE,FALSE,FALSE,,,Not started
+Reminder,!checksheet,!checksheet,FALSE,FALSE,FALSE,,,Not started
+Reminder,!env,!env,FALSE,FALSE,FALSE,,,Not started
+Reminder,!config,!config,FALSE,FALSE,FALSE,,,Not started
+Reminder,!reboot,!reboot,FALSE,FALSE,FALSE,,,Not started
+WelcomeCrew,!ping,!ping,FALSE,FALSE,FALSE,,,Not started
+WelcomeCrew,!health,!health,FALSE,FALSE,FALSE,,,Not started
 WelcomeCrew,(missing),!digest,FALSE,FALSE,FALSE,,,Not started
-WelcomeCrew,!reload,!reload,FALSE,FALSE,FALSE,,,In progress
-WelcomeCrew,!sheetsstatus,!checksheet,TRUE,FALSE,FALSE,,,In progress
-WelcomeCrew,!checksheet,!checksheet,FALSE,FALSE,FALSE,,,In progress
-WelcomeCrew,!env_check,!env,TRUE,FALSE,FALSE,,,In progress
+WelcomeCrew,!reload,!reload,FALSE,FALSE,FALSE,,,Not started
+WelcomeCrew,!sheetsstatus,!checksheet,TRUE,FALSE,FALSE,,,Not started
+WelcomeCrew,!checksheet,!checksheet,FALSE,FALSE,FALSE,,,Not started
+WelcomeCrew,!env_check,!env,TRUE,FALSE,FALSE,,,Not started
 WelcomeCrew,(maybe missing),!config,FALSE,FALSE,FALSE,,,Not started
-WelcomeCrew,!reboot,!reboot,FALSE,FALSE,FALSE,,,In progress
+WelcomeCrew,!reboot,!reboot,FALSE,FALSE,FALSE,,,Not started
 Matchmaker,!ping,!ping,FALSE,FALSE,FALSE,,,Not started
 Matchmaker,!health,!health,FALSE,FALSE,FALSE,,,Not started
 Matchmaker,(missing),!digest,FALSE,FALSE,FALSE,,,Not started
-Matchmaker,!reload,!reload,FALSE,FALSE,FALSE,,,In progress
-Matchmaker,!welcome-refresh,!reload,TRUE,FALSE,FALSE,,,In progress
+Matchmaker,!reload,!reload,FALSE,FALSE,FALSE,,,Not started
+Matchmaker,!welcome-refresh,!reload,TRUE,FALSE,FALSE,,,Not started
 Matchmaker,(maybe missing),!checksheet,FALSE,FALSE,FALSE,,,Not started
 Matchmaker,(maybe missing),!env,FALSE,FALSE,FALSE,,,Not started
 Matchmaker,(maybe missing),!config,FALSE,FALSE,FALSE,,,Not started
@@ -28,9 +28,9 @@ Matchmaker,(maybe missing),!reboot,FALSE,FALSE,FALSE,,,Not started
 Achievements,!ping,!ping,FALSE,FALSE,FALSE,,,Not started
 Achievements,!health,!health,FALSE,FALSE,FALSE,,,Not started
 Achievements,(missing),!digest,FALSE,FALSE,FALSE,,,Not started
-Achievements,!reloadconfig,!reload,TRUE,FALSE,FALSE,,,In progress
+Achievements,!reloadconfig,!reload,TRUE,FALSE,FALSE,,,Not started
 Achievements,(maybe missing),!checksheet,FALSE,FALSE,FALSE,,,Not started
 Achievements,(maybe missing),!env,FALSE,FALSE,FALSE,,,Not started
-Achievements,!testconfig,!config,TRUE,FALSE,FALSE,,,In progress
-Achievements,!configstatus,!config,TRUE,FALSE,FALSE,,,In progress
+Achievements,!testconfig,!config,TRUE,FALSE,FALSE,,,Not started
+Achievements,!configstatus,!config,TRUE,FALSE,FALSE,,,Not started
 Achievements,(maybe missing),!reboot,FALSE,FALSE,FALSE,,,Not started
