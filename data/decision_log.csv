@@ -1,0 +1,3 @@
+date,decision,reason,next_step
+2025-09-29,Harmonize ops under Reminder blueprint,Reduce drift and duplicate replies,Implement aliases; standardize outputs; add scoped namespaces
+2025-09-29,Adopt GitHub → Sheets sync model,Single source of truth; ≤3/day refresh,Seed repo; add Apps Script; protect View tabs

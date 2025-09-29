@@ -1,0 +1,76 @@
+[
+  {
+    "command": "!ping",
+    "description": "Quick alive check with latency (one-line).",
+    "status": "Everywhere",
+    "aliases": [],
+    "response_shape": "One-liner",
+    "notes": "Broadcast + scoped; use namespace/mention for single-bot replies."
+  },
+  {
+    "command": "!health",
+    "description": "Detailed health check (uptime, Discord, Sheets, quota, config, last reload).",
+    "status": "In progress",
+    "aliases": [],
+    "response_shape": "Multi-line embed",
+    "notes": "Follow Reminder’s field order and footer format."
+  },
+  {
+    "command": "!digest",
+    "description": "Post the current health digest as a message (same content as !health).",
+    "status": "In progress",
+    "aliases": [],
+    "response_shape": "Multi-line embed",
+    "notes": "Intended for broadcast; respects admin-channel rules."
+  },
+  {
+    "command": "!reload",
+    "description": "Reload config/templates and clear caches as needed by the bot.",
+    "status": "In progress",
+    "aliases": [
+      "!reloadconfig",
+      "!welcome-refresh"
+    ],
+    "response_shape": "One-liner + list",
+    "notes": "Standardize success line; list sources reloaded."
+  },
+  {
+    "command": "!checksheet",
+    "description": "Run Google Sheets diagnostics (connectivity, counts, last sync).",
+    "status": "In progress",
+    "aliases": [
+      "!sheetsstatus"
+    ],
+    "response_shape": "Multi-line embed",
+    "notes": "Do not leak secrets; show safe identifiers only."
+  },
+  {
+    "command": "!env",
+    "description": "Verify required environment variables and surface missing ones with hints.",
+    "status": "In progress",
+    "aliases": [
+      "!env_check"
+    ],
+    "response_shape": "One-liner + list",
+    "notes": "No values; only present/missing flags."
+  },
+  {
+    "command": "!config",
+    "description": "Show current config sources and a short summary of active tabs/flags.",
+    "status": "In progress",
+    "aliases": [
+      "!testconfig",
+      "!configstatus"
+    ],
+    "response_shape": "Multi-line embed",
+    "notes": "Short and scannable; mirror Reminder layout."
+  },
+  {
+    "command": "!reboot",
+    "description": "Soft restart the bot; uptime resets after restart.",
+    "status": "In progress",
+    "aliases": [],
+    "response_shape": "One-liner",
+    "notes": "Gate behind admin permissions; confirm action."
+  }
+]

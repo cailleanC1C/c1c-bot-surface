@@ -1,0 +1,7 @@
+bot,old_command,new_command,alias_present,docs_updated,help_updated,date_completed,by,status
+Achievements,!reloadconfig,!reload,TRUE,FALSE,FALSE,,,Not started
+WelcomeCrew,!sheetsstatus,!checksheet,TRUE,FALSE,FALSE,,,In progress
+WelcomeCrew,!env_check,!env,TRUE,FALSE,FALSE,,,In progress
+Achievements,!testconfig,!config,TRUE,FALSE,FALSE,,,In progress
+Achievements,!configstatus,!config,TRUE,FALSE,FALSE,,,In progress
+Matchmaker,!welcome-refresh,!reload,TRUE,FALSE,FALSE,,,In progress

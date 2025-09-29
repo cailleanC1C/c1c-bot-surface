@@ -1,0 +1,218 @@
+[
+  {
+    "bot": "Reminder",
+    "command": "!holiday",
+    "description": "File or cancel absence",
+    "category": "Member",
+    "cross_relevance": "Unique",
+    "notes": "Writes to HOLIDAYS sheet"
+  },
+  {
+    "bot": "Reminder",
+    "command": "!myreminders",
+    "description": "List your personal snooze reminders",
+    "category": "Member",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Reminder",
+    "command": "!summary",
+    "description": "Show reminder setup for a clan",
+    "category": "Leader",
+    "cross_relevance": "Unique",
+    "notes": "Use !summaryall for all clans"
+  },
+  {
+    "bot": "Reminder",
+    "command": "!summaryall",
+    "description": "All clans’ reminder setups (paginated)",
+    "category": "Leader",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Reminder",
+    "command": "!tanking",
+    "description": "Tanking controls + presets + announcements",
+    "category": "Leader",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Reminder",
+    "command": "!next",
+    "description": "Show next scheduled times for ALL modes (per clan if provided)",
+    "category": "Leader",
+    "cross_relevance": "Unique",
+    "notes": "Policy: always show all modes"
+  },
+  {
+    "bot": "Reminder",
+    "command": "!testrem",
+    "description": "Dry-run a normal reminder",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Reminder",
+    "command": "!testcow",
+    "description": "Dry-run a CoW cycle post",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Reminder",
+    "command": "!testcustom",
+    "description": "Dry-run a custom reminder",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!watch_status",
+    "description": "Show watcher ON/OFF + last actions",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!watch_on",
+    "description": "Enable thread watchers",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!watch_off",
+    "description": "Disable thread watchers",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!backfill_tickets",
+    "description": "Scan/ingest historical tickets",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!backfill_details",
+    "description": "Pull thread details for missing rows",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "WelcomeCrew",
+    "command": "!dedupe_sheet",
+    "description": "Remove duplicate rows; keep newest by rule",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!clanmatch",
+    "description": "Open the placement panel",
+    "category": "Recruitment",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!clan <TAG>",
+    "description": "Quick view of a clan",
+    "category": "Recruitment",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!welcome",
+    "description": "Onboarding/welcome flow",
+    "category": "Recruitment",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!clansearch",
+    "description": "Browse/open spots",
+    "category": "Member",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!welcome-on",
+    "description": "Enable welcome automations",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!welcome-off",
+    "description": "Disable welcome automations",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!welcome-status",
+    "description": "Status of welcome automations",
+    "category": "Admin",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Matchmaker",
+    "command": "!welcome-refresh",
+    "description": "Refresh templates & cache (alias of !reload)",
+    "category": "Admin",
+    "cross_relevance": "Harmonize",
+    "notes": "Use !reload as canonical"
+  },
+  {
+    "bot": "Achievements",
+    "command": "!listach [filter]",
+    "description": "List loaded achievements",
+    "category": "Staff",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Achievements",
+    "command": "!findach <text>",
+    "description": "Search achievements",
+    "category": "Staff",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Achievements",
+    "command": "!testach <key> [where]",
+    "description": "Preview an achievement embed",
+    "category": "Staff",
+    "cross_relevance": "Unique",
+    "notes": ""
+  },
+  {
+    "bot": "Achievements",
+    "command": "!testlevel [query] [where]",
+    "description": "Preview a level embed",
+    "category": "Staff",
+    "cross_relevance": "Unique",
+    "notes": ""
+  }
+]
