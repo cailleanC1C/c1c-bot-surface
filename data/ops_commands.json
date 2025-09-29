@@ -2,7 +2,7 @@
   {
     "command": "!ping",
     "description": "Quick alive check with latency (one-line).",
-    "status": "Everywhere",
+    "status": "Not started",
     "aliases": [],
     "response_shape": "One-liner",
     "notes": "Broadcast + scoped; use namespace/mention for single-bot replies."
@@ -10,7 +10,7 @@
   {
     "command": "!health",
     "description": "Detailed health check (uptime, Discord, Sheets, quota, config, last reload).",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [],
     "response_shape": "Multi-line embed",
     "notes": "Follow Reminder’s field order and footer format."
@@ -18,7 +18,7 @@
   {
     "command": "!digest",
     "description": "Post the current health digest as a message (same content as !health).",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [],
     "response_shape": "Multi-line embed",
     "notes": "Intended for broadcast; respects admin-channel rules."
@@ -26,7 +26,7 @@
   {
     "command": "!reload",
     "description": "Reload config/templates and clear caches as needed by the bot.",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [
       "!reloadconfig",
       "!welcome-refresh"
@@ -37,7 +37,7 @@
   {
     "command": "!checksheet",
     "description": "Run Google Sheets diagnostics (connectivity, counts, last sync).",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [
       "!sheetsstatus"
     ],
@@ -47,7 +47,7 @@
   {
     "command": "!env",
     "description": "Verify required environment variables and surface missing ones with hints.",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [
       "!env_check"
     ],
@@ -57,7 +57,7 @@
   {
     "command": "!config",
     "description": "Show current config sources and a short summary of active tabs/flags.",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [
       "!testconfig",
       "!configstatus"
@@ -68,7 +68,7 @@
   {
     "command": "!reboot",
     "description": "Soft restart the bot; uptime resets after restart.",
-    "status": "In progress",
+    "status": "Not started",
     "aliases": [],
     "response_shape": "One-liner",
     "notes": "Gate behind admin permissions; confirm action."
