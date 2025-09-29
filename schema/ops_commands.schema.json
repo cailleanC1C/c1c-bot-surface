@@ -23,7 +23,8 @@
         "enum": [
           "Everywhere",
           "In progress",
-          "Missing"
+          "Missing",
+          "Not started"
         ]
       },
       "aliases": {
@@ -37,7 +38,8 @@
         "enum": [
           "One-liner",
           "Multi-line embed",
-          "One-liner + list"
+          "One-liner + list",
+          "Multi-line embed"
         ]
       },
       "notes": {
