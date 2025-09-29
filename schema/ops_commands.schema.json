@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "command",
+      "description",
+      "status",
+      "aliases",
+      "response_shape",
+      "notes"
+    ],
+    "properties": {
+      "command": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "Everywhere",
+          "In progress",
+          "Missing"
+        ]
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "response_shape": {
+        "type": "string",
+        "enum": [
+          "One-liner",
+          "Multi-line embed",
+          "One-liner + list"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}
